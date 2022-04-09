@@ -6,9 +6,9 @@ var path = require('path');
 
 var connection = mysql.createConnection({
 	host     : 'localhost',
-	user     : 'admin',
-	password : 'admin',
-	database : 'nodelogin'
+	user     : 'postgres',
+	password : 'dramon12',
+	database : 'postgres'
 });
 
 var app = express();
